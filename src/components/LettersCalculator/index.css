@@ -1,0 +1,67 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: 30%;
+}
+.heading {
+  font-size: 21px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.para {
+  font-size: 10px;
+  font-weight: bold;
+}
+.input-search {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border-color: white;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+  max-width: 70%;
+}
+@media screen and (min-width: 750px) {
+  .input-search {
+    min-width: 100%;
+  }
+}
+.letter-count {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: #219a6f;
+}
+.img {
+  height: 250px;
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .img {
+    height: 450px;
+    width: 450px;
+  }
+}
